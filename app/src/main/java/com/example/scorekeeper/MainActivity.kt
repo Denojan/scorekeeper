@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
 
     fun decreaseScore(v: View) {
         var viewID = v.id
-
+        //switch like strucutre
         when (viewID) {
             R.id.decreaseTeam1 -> {
                 --mScore1
